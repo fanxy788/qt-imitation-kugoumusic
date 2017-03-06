@@ -14,8 +14,8 @@ QT      += network
 TARGET   = KugouMusic
 TEMPLATE = app
 
-QMAKE_CXXFLAGS += -Wno-iCCP-known-incorrect-sRGB-profile
-QMAKE_CXXFLAGS += -Wno-iCCP-cHRM-chunk-does-not-match-sRGB
+#QMAKE_CXXFLAGS += -Wno-iCCP-known-incorrect-sRGB-profile
+#QMAKE_CXXFLAGS += -Wno-iCCP-cHRM-chunk-does-not-match-sRGB
 
 include(src/ui/ui.pri)
 include(src/core/core.pri)

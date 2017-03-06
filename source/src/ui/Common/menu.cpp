@@ -20,6 +20,7 @@ Menu::~Menu()
 
 bool Menu::event(QEvent *event)
 {
+    /*
     static bool class_amended = false;
     if (event->type() == QEvent::WinIdChange)
     {
@@ -32,6 +33,7 @@ bool Menu::event(QEvent *event)
             ::SetClassLong(hwnd, GCL_STYLE, class_style);
         }
     }
+    */
     return QWidget::event(event);
 }
 
